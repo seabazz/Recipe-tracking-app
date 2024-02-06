@@ -9,13 +9,6 @@ function RecipeCreate({ createRecipe }) {
       ingredients: "",
       preparation: "",
     };
-    
-    // const [name, setName] = useState('');
-    // const [cuisine, setCuisine] = useState('');
-    // const [photo, setPhoto] = useState('');
-    // const [rating, setRating] = useState('');
-    // const [ingredients, setIngredients] = useState('');
-    // const [preparation, setPreparation] = useState('');
 
     const [formData, setFormData] = useState({ ...initialFormState });
     const handleChange = ({ target }) => {
